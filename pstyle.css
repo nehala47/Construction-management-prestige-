@@ -1,0 +1,29 @@
+.nav-link{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 2px;
+    transition: 1s ease;
+}
+
+body{
+    background-color: #8ac6d1;
+}
+
+.card-deck{
+    margin-top: 2%;
+}
+footer{
+    background-color: black;
+    opacity: 0.8;
+}
+
+p{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+h2{
+    font-family: 'Bangers', cursive;
+}

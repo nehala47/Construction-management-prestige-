@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>login page</title>
+        <link href="style1.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <style>
+              .navbar navbar-expand-lg navbar-light bg-light{
+                background-color: cadetblue;
+              }
+
+        </style>
+    </head>
+    <body>
+        
+      <nav class="navbar navbar-expand-sm bg-info navbar-dark">
+        <a class="navbar-brand" href="">
+            <img src="plogo.png" alt="logo" style="width: 60px;">
+        </a>
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="front.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://eepurl.com/gP_J49">CAREER</a>
+          </li>
+           
+        </ul>
+      </nav>
+          <div class="login-form">
+              <form action="validation.php" method="POST">
+                <br>
+                <h2> LOGIN </h2>
+                <br>
+                <b>USERNAME</b >: <input type="text"  name="username" placeholder="enter username" size=30 style="padding: 3px;"><br><br>
+                <b>PASSWORD</b>: <input type="password"  name="password"  placeholder="enter password" size=30 style="padding: 3px;"><br><br>
+                <button type="submit" value="login" style="padding: 8px; background-color: cornsilk;">Login</button>  
+                          
+              </form>
+              <a href="signup.html"><button type="submit" value="create new account" style="padding: 8px; background-color: cornsilk;">CREATE ACCOUNT
+          </div>
+          </center>
+    </body>
+</html>
